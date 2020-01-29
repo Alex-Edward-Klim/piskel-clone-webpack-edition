@@ -1,0 +1,33 @@
+{
+  "name": "piskel-clone-webpack-edition",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "./src/scripts/app.js",
+  "scripts": {
+    "test": "webpack --config webpack.development-config.js",
+    "start": "webpack --config webpack.production-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex-Edward-Klim/piskel-clone-webpack-edition.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alex-Edward-Klim/piskel-clone-webpack-edition/issues"
+  },
+  "homepage": "https://github.com/Alex-Edward-Klim/piskel-clone-webpack-edition#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.4.2",
+    "file-loader": "^5.0.2",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "script-loader": "^0.7.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
